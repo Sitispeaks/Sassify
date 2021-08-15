@@ -14,7 +14,7 @@ Create your own Ecommerce app in a flash ⚡
 
 5. Use ```docker-compose down``` to kill all containers.
 
-6. Create your PAYPAL API KEY and put that in the a.env file in the root of <b>/frontend</b> directory.
+6. Create your PAYPAL API KEY and put that in the <b>.env</b> file in the root of <b>/frontend</b> directory.
 
 ## SAMPLE UI
 ![DEMO](https://github.com/bradtraversy/proshop_mern/blob/master/uploads/Screen%20Shot%202020-09-29%20at%205.50.52%20PM.png)
