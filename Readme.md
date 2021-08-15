@@ -6,9 +6,9 @@ Create your own Ecommerce app in a flash ⚡
 
     <b>``` git clone https://github.com/Sitispeaks/Sassify.git```</b>
 
-2. cd into the project directory
+2. cd into the project directory.
 
-3. Download docker desktop from this <a href="https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe">url</a>
+3. Download docker desktop from this <a href="https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe">url</a>.
 
 4. Open your favourite terminal & type ```docker-compose up``` to start all the containers.Then go to the docker desktop to access the project.
 
