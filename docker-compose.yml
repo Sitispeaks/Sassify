@@ -24,19 +24,6 @@ services:
     networks:
       - elastic
 
-  # web:
-  #   build:
-  #     context: .
-  #     dockerfile: ./Dockerfile
-  #   image: ted_web
-  #   volumes:
-  #     - .:/app
-  #   depends_on:
-  #     # - postgres
-  #     - elasticsearch
-  #     # env_file: .env
-  #     - "8000:8000"
-  #   command: /start
   db:
     image: "postgres:13-alpine"
     environment:
@@ -56,8 +43,9 @@ services:
       # dockerfile: ./backend/Dockerfile
     ports:
       - 8000:8000
+    env_file: .env
     depends_on:
-      # - postgres
+      - db
       - elasticsearch1
     entrypoint: /app/entrypoint.sh
     volumes:
