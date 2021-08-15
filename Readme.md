@@ -1,6 +1,10 @@
 # Sassify
 Create your own Ecommerce app in a flash ⚡
 
+# Schema
+![schema](https://user-images.githubusercontent.com/60188244/129487290-d57eb971-35c1-4e15-865b-03919035156b.png)
+
+
 # To setup
 1.  Fork the repo
 
@@ -19,13 +23,14 @@ Create your own Ecommerce app in a flash ⚡
 ## SAMPLE UI
 ![DEMO](https://github.com/bradtraversy/proshop_mern/blob/master/uploads/Screen%20Shot%202020-09-29%20at%205.50.52%20PM.png)
 
-![DEMO](https://raw.githubusercontent.com/Sitispeaks/Sassify/main/product_details.png)
+![DEMO](https://github.com/Sitispeaks/Sassify/blob/main/UI/product_details.png)
 
-![DEMO](https://raw.githubusercontent.com/Sitispeaks/Sassify/main/cart.png)
+![DEMO](https://github.com/Sitispeaks/Sassify/blob/main/UI/cart.png)
 
-![DEMO](https://raw.githubusercontent.com/Sitispeaks/Sassify/main/shipping.png)
+![DEMO](https://github.com/Sitispeaks/Sassify/blob/main/UI/shipping.png)
 
-![DEMO](https://raw.githubusercontent.com/Sitispeaks/Sassify/main/placeorder.png)
+![DEMO](https://github.com/Sitispeaks/Sassify/blob/main/UI/placeorder.png)
+
 
 
 # Features
