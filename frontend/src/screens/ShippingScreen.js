@@ -87,39 +87,6 @@ function ShippingScreen({ history }) {
             </Form>
         </FormContainer>
 
-                
-
-
-                
-
-
-
-/* 
-export class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { country: "" };
-  }
-
-  selectCountry(val) {
-    this.setState({ country: val });
-  }
-
-  render() {
-    const { country } = this.state;
-    return (
-      <div>
-        <CountryDropdown
-          value={country}
-          onChange={(val) => this.selectCountry(val)}
-        />
-      </div>
-    );
-  }
-} */
-
-
-
 
         
     )

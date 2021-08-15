@@ -37,6 +37,17 @@ services:
   #     # env_file: .env
   #     - "8000:8000"
   #   command: /start
+  db:
+    image: "postgres:13-alpine"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    container_name: postgres_db
 
   web:
     restart: unless-stopped
@@ -77,6 +88,7 @@ volumes:
     driver: local
   static_volume: {}
   media_volume :
+  postgres_data :
   
 
       
